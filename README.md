@@ -1,6 +1,8 @@
 # Monochrome-Neubrutalism-Firefox-Theme
 
-![Header]()
+![Header](Theme_preview.png "Theme_preview")
+
+**WALLPAPER USED:** [Artistic, Minimalism, Black and White, Minimalist, Mountain, HD wallpaper](https://www.wallpaperflare.com/artistic-minimalism-black-and-white-minimalist-mountain-wallpaper-cwksj)
 
 **INSTALLATION INSTRUCTIONS:**
 
