@@ -1,0 +1,170 @@
+.browser-toolbar{
+  min-width: 0;
+  min-height: 0;
+  background-color: #ECEAF2;
+}
+.titlebar-button{
+  background-color: white !important;
+  color: black !important;
+  margin: 5px !important;
+  border: 1px solid black !important;
+  box-shadow: 1px 1px 0px black;
+  width: 20px !important;
+  height: 20px !important;
+  font-size: 10px !important;
+  border-radius: 3px !important;
+  padding: 0px !important;
+  cursor: pointer;
+  margin-top: 18px !important;
+}
+
+.titlebar-button:last-child{
+  margin-right: 10px !important;
+}
+
+.titlebar-button image{
+  height: 8px !important;
+  color: black;
+}
+
+.titlebar-min image{
+  list-style-image: url(https://firebasestorage.googleapis.com/v0/b/image-host-d4713.appspot.com/o/window-minimize-solid.svg?alt=media&token=bc00406b-dc5c-4f87-abee-3292fc9bbf76) !important;;
+}
+
+.titlebar-min:hover{
+  background-color: #26c73f !important;
+  transition: 0.5s;
+}
+
+.titlebar-restore:hover, .titlebar-max:hover{
+  background-color: #FDBC2D !important;
+  transition: 0.5s;
+}
+
+.titlebar-close:hover{
+  background-color: #fd5f56 !important;
+  transition: 0.5s;
+}
+
+.titlebar-close{
+  list-style-image: url(https://firebasestorage.googleapis.com/v0/b/image-host-d4713.appspot.com/o/x-solid.svg?alt=media&token=b5551b15-2f20-41a3-a058-79b3c66625af) !important;;
+}
+
+.titlebar-restore{
+  list-style-image: url(https://firebasestorage.googleapis.com/v0/b/image-host-d4713.appspot.com/o/window-restore-regular.svg?alt=media&token=527f6279-5faa-4f7e-9886-cd1226480063) !important;
+}
+
+.titlebar-max{
+  list-style-image: url(https://firebasestorage.googleapis.com/v0/b/image-host-d4713.appspot.com/o/square-regular.svg?alt=media&token=fe157572-8889-4174-b354-c9a6d60cc6ec) !important;
+}
+
+tab .tab-background{
+  background-color: white !important;
+  border: 1px solid black !important;
+  box-shadow: 1px 1px 0px black !important;
+  border-radius: 5px !important;
+}
+
+tab[selected="true"] .tab-background{
+  background: #e8e8ea !important;
+}
+
+tab{
+  cursor: pointer;
+  margin-top: 5px !important;
+}
+
+tab:first-child{
+  margin-left: 10px !important;
+}
+
+.tabs-alltabs-button{
+  display: none;
+}
+
+#tabs-newtab-button .toolbarbutton-icon, #new-tab-button image{
+  background-color: white;
+  border: 1px solid black;
+  box-shadow: 1px 1px 0px black !important;
+  border-radius: 5px !important;
+  margin-top: 5px !important;
+}
+
+#tabs-newtab-button, #new-tab-button{
+  cursor: pointer; 
+}
+
+#back-button image, #forward-button image, #home-button image, #reload-button image, #downloads-button image, #unified-extensions-button image, #PanelUI-button image{
+  background-color: white;
+  border: 1px solid black;
+  box-shadow: 1px 1px 0px black !important;
+  border-radius: 5px !important;
+  cursor: pointer !important;
+  padding: 3px !important;
+  height: 25px !important;
+  width: 25px !important;
+  margin-left: 5px !important;
+  margin-right: 5px !important;
+}
+#fxa-toolbar-menu-button{
+  display: none
+}
+#downloads-button image{
+  display: none;
+}
+
+#downloads-button #downloads-indicator-icon{
+  display: block;
+}
+
+#urlbar-container{
+  height: 100% !important;
+}
+#urlbar-container #urlbar{
+  background-color: white !important;
+  border: 1px solid black !important;
+  border-radius: 5px !important;
+  box-shadow: 1px 1px 0px black;
+}
+
+#urlbar-container #urlbar #urlbar-background{
+  background-color: white !important;
+}
+
+#PersonalToolbar, #nav-bar {
+  background-color: #EAE8EF !important;
+}
+
+#nav-bar{
+  height: 50px
+}
+
+.toolbarbutton-badge-stack{
+  padding: 0px !important;
+}
+
+.bookmark-item{
+  background-color: white !important;
+  padding: 3px;
+  border: 1px solid black;
+  box-shadow: 1px 1px 0px black;
+  border-radius: 3px;
+  margin-right: 14px !important;
+  margin-bottom: 5px !important;
+}
+
+.bookmark-item:first-child{
+  margin-left: 7px !important;
+}
+
+#OtherBookmarks{
+  margin-right: 5px !important;
+}
+
+#PersonalToolbar{
+  height: 35px !important;
+}
+
+body{
+  background-color: #ECEBF0 !important;
+}
