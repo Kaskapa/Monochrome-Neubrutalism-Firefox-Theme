@@ -1,5 +1,7 @@
 # Monochrome-Neubrutalism-Firefox-Theme
 
+![Header]()
+
 **INSTALLATION INSTRUCTIONS:**
 
 - load about:config in the Firefox address bar, then search for toolkit.legacyUserProfileCustomizations.stylesheets and set it to True by double clicking the "Value" column.
