@@ -106,16 +106,42 @@ tab:first-child{
   margin-left: 5px !important;
   margin-right: 5px !important;
 }
-#fxa-toolbar-menu-button{
-  display: none
-}
-#downloads-button image{
-  display: none;
+
+#back-button image{
+  list-style-image: url(https://firebasestorage.googleapis.com/v0/b/image-host-d4713.appspot.com/o/arrow-left-solid.svg?alt=media&token=47103f7d-749e-42e2-bd84-f4e7d8565126);
 }
 
-#downloads-button #downloads-indicator-icon{
-  display: block;
+#forward-button image{
+  list-style-image: url(https://firebasestorage.googleapis.com/v0/b/image-host-d4713.appspot.com/o/arrow-right-solid.svg?alt=media&token=55da06aa-655b-47a6-b1f1-0bffd8a56509);
 }
+
+#PanelUI-button image{
+  list-style-image: url(https://firebasestorage.googleapis.com/v0/b/image-host-d4713.appspot.com/o/bars-solid.svg?alt=media&token=25c61983-c075-49e0-8fac-8a59a00ce698);
+}
+#unified-extensions-button image{
+  list-style-image: url(https://firebasestorage.googleapis.com/v0/b/image-host-d4713.appspot.com/o/puzzle-piece-solid.svg?alt=media&token=cf9a5ade-b15c-4247-8297-4bcef6feddfa);
+}
+
+#downloads-button image{
+  list-style-image: url(https://firebasestorage.googleapis.com/v0/b/image-host-d4713.appspot.com/o/download-solid.svg?alt=media&token=232669fc-3ee8-41ed-9661-1a28962b88b8) !important;
+}
+
+#reload-button image{
+  list-style-image: url(https://firebasestorage.googleapis.com/v0/b/image-host-d4713.appspot.com/o/rotate-right-solid.svg?alt=media&token=36ec6fef-0d35-4e34-af51-e4a091c961eb);
+}
+
+#home-button image{
+  list-style-image: url(https://firebasestorage.googleapis.com/v0/b/image-host-d4713.appspot.com/o/house-solid.svg?alt=media&token=4e8b0f36-b6b8-4e33-8712-252f4eaeb34f);
+}
+
+#identity-icon-box image{
+  list-style-image: url(https://firebasestorage.googleapis.com/v0/b/image-host-d4713.appspot.com/o/lock-solid.svg?alt=media&token=1f1fb871-aad0-4601-952e-ea8329fc7de4);
+}
+
+#fxa-toolbar-menu-button{
+  display: none !important;
+}
+
 
 #urlbar-container{
   height: 100% !important;
@@ -151,6 +177,10 @@ tab:first-child{
   border-radius: 3px;
   margin-right: 14px !important;
   margin-bottom: 5px !important;
+}
+
+.bookmark-item image{
+  list-style-image: url(https://firebasestorage.googleapis.com/v0/b/image-host-d4713.appspot.com/o/folder-regular.svg?alt=media&token=dc2a602a-afca-4082-968e-b2635aa7db44);
 }
 
 .bookmark-item:first-child{
