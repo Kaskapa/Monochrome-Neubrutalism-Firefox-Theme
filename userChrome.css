@@ -28,7 +28,8 @@
 }
 
 .titlebar-min image{
-  list-style-image: url(https://firebasestorage.googleapis.com/v0/b/image-host-d4713.appspot.com/o/window-minimize-solid.svg?alt=media&token=bc00406b-dc5c-4f87-abee-3292fc9bbf76) !important;;
+  /*<!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->*/
+  list-style-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cpath d='M32 416c-17.7 0-32 14.3-32 32s14.3 32 32 32H480c17.7 0 32-14.3 32-32s-14.3-32-32-32H32z'/%3E%3C/svg%3E") !important;;
 }
 
 .titlebar-min:hover{
@@ -47,15 +48,18 @@
 }
 
 .titlebar-close{
-  list-style-image: url(https://firebasestorage.googleapis.com/v0/b/image-host-d4713.appspot.com/o/x-solid.svg?alt=media&token=b5551b15-2f20-41a3-a058-79b3c66625af) !important;;
+  /*<!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->*/
+  list-style-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 384 512'%3E%3Cpath d='M376.6 84.5c11.3-13.6 9.5-33.8-4.1-45.1s-33.8-9.5-45.1 4.1L192 206 56.6 43.5C45.3 29.9 25.1 28.1 11.5 39.4S-3.9 70.9 7.4 84.5L150.3 256 7.4 427.5c-11.3 13.6-9.5 33.8 4.1 45.1s33.8 9.5 45.1-4.1L192 306 327.4 468.5c11.3 13.6 31.5 15.4 45.1 4.1s15.4-31.5 4.1-45.1L233.7 256 376.6 84.5z'/%3E%3C/svg%3E") !important;;
 }
 
 .titlebar-restore{
-  list-style-image: url(https://firebasestorage.googleapis.com/v0/b/image-host-d4713.appspot.com/o/window-restore-regular.svg?alt=media&token=527f6279-5faa-4f7e-9886-cd1226480063) !important;
+  /*<!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->*/
+  list-style-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cpath d='M432 48H208c-17.7 0-32 14.3-32 32V96H128V80c0-44.2 35.8-80 80-80H432c44.2 0 80 35.8 80 80V304c0 44.2-35.8 80-80 80H416V336h16c17.7 0 32-14.3 32-32V80c0-17.7-14.3-32-32-32zM48 448c0 8.8 7.2 16 16 16H320c8.8 0 16-7.2 16-16V256H48V448zM64 128H320c35.3 0 64 28.7 64 64V448c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V192c0-35.3 28.7-64 64-64z'/%3E%3C/svg%3E") !important;
 }
 
 .titlebar-max{
-  list-style-image: url(https://firebasestorage.googleapis.com/v0/b/image-host-d4713.appspot.com/o/square-regular.svg?alt=media&token=fe157572-8889-4174-b354-c9a6d60cc6ec) !important;
+  /*<!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->*/
+  list-style-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 448 512'%3E%3Cpath d='M384 80c8.8 0 16 7.2 16 16V416c0 8.8-7.2 16-16 16H64c-8.8 0-16-7.2-16-16V96c0-8.8 7.2-16 16-16H384zM64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64z'/%3E%3C/svg%3E") !important;
 }
 
 tab .tab-background{
